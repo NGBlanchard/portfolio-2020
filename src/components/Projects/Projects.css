@@ -1,0 +1,80 @@
+.projects-cont {
+  background: white;
+  padding: 75px 35px;
+  text-align: center;
+}
+
+.last-project {
+  margin-bottom: 0px;
+}
+
+.project {
+  margin-bottom: 90px;
+}
+.projects-header {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.projects-content {
+  color: rgb(134, 142, 150);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Muli, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.projects-grid {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.project-title {
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.device {
+  display: inline-block;
+  position: relative;
+}
+
+.phone {
+  max-width: 110px;
+  position: absolute;
+  top: -200px;
+  left: 55px;
+  z-index: 1;
+}
+
+.screen {
+  width: 95px;
+  height: 177px;
+  position: absolute;
+  top: -180px;
+  left: 62px;
+  z-index: 2;
+ 
+}
+
+.computer {
+  width: 400px;
+}
+
+.comp-screen {
+  width: 300px;
+  position: absolute;
+  top: 25px;
+  right: 50px;
+}

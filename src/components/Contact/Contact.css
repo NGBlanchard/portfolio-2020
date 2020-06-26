@@ -1,0 +1,39 @@
+.contact-cont {
+  text-align: center;
+  padding: 30px;
+  /* color: white; */
+  background: #fdcc52;
+}
+
+.contact-header {
+  font-size: 25px;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.contact-link-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contact-logo {
+  width: 50px;
+  /* -webkit-filter: contrast(200%) invert(200%);
+  filter: contrast(200%) invert(200%); */
+}
+
+.email-logo {
+  width: 45px;
+  /* -webkit-filter: contrast(200%) invert(200%);
+  filter: contrast(200%) invert(200%); */
+}
+
+.email-logo:hover,
+.contact-logo:hover {
+  -webkit-filter: blur(5px);
+  filter:blur(5px);
+ 
+}
