@@ -1,12 +1,17 @@
 .writing-cont {
-  background-color: white;
-  padding: 35px;
+  color: white;
+  background: url("../Hero/img/bg-pattern.png"), #7b4397;
+  background: url("../Hero/img/bg-pattern.png"),
+    -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../Hero/img/bg-pattern.png"),
+    linear-gradient(to left, #7b4397, #dc2430);
+  padding: 35px 10px;
 }
 
 .writing-header {
   text-align: center;
   font-size: 50px;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -17,4 +22,28 @@
   font-weight: 400;
   font-family: Muli, Helvetica, Arial, sans-serif;
   text-align: center;
+}
+
+.writing-grid {
+  clear: left;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  text-align: center;
+}
+
+.writing-card {
+  cursor: pointer;
+  height: 100px;
+  background-color: ghostwhite;
+  border: solid 0.5px #fdcc52;
+  color: #212121;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Muli, Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

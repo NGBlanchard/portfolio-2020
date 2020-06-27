@@ -9,7 +9,7 @@
 }
 
 .project {
-  margin-bottom: 90px;
+  margin-bottom: 80px;
 }
 .projects-header {
   text-align: center;
@@ -46,6 +46,7 @@
 }
 
 .device {
+  cursor: pointer;
   display: inline-block;
   position: relative;
 }

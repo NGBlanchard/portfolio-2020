@@ -5,11 +5,11 @@ export default function Teaching() {
     <section className="teaching-cont">
       <section>
         <div className="sectionTitle">
-          <h1>Teaching</h1>
+        <header className="projects-header">Teaching</header>
         </div>
-
+        <div className="resume-cont">
         <div className="sectionContent">
-          <article>
+          <article className="teach">
             <h2>Montgomery County Public Schools</h2>
             <p className="subDetails">June 2020 - Present</p>
             <p>
@@ -18,7 +18,7 @@ export default function Teaching() {
             </p>
           </article>
 
-          <article>
+          <article  className="teach">
             <h2>Saint John's College Prep</h2>
             <p className="subDetails">June 2018 - June 2020</p>
             <p>
@@ -28,7 +28,7 @@ export default function Teaching() {
             </p>
           </article>
 
-          <article>
+          <article  className="teach">
             <h2>University of Alabama</h2>
             <p className="subDetails">June 2014 - June 2018</p>
             <p>
@@ -41,13 +41,13 @@ export default function Teaching() {
             </p>
           </article>
 
-          <article>
+          <article  className="teach">
             <h2>Alabama Prison Arts & Education Project</h2>
             <p className="subDetails">August 2016 - December 2016</p>
             <p>American Literature 1965-2015</p>
           </article>
 
-          <article>
+          <article  className="teach">
             <h2>Saint Timothy's School</h2>
             <p className="subDetails">October 2012 - June 2014</p>
             <p>
@@ -57,7 +57,7 @@ export default function Teaching() {
             </p>
           </article>
 
-          <article>
+          <article  className="teach">
             <h2>Other</h2>
             Graduate Writing Consultant
             <p className="subDetails">August 2014 - August 2015</p>
@@ -69,6 +69,7 @@ export default function Teaching() {
           </article>
         </div>
         <div className="clear"></div>
+        </div>
       </section>
     </section>
   );
