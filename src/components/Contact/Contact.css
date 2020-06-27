@@ -1,6 +1,6 @@
 .contact-cont {
   text-align: center;
-  padding: 30px;
+  padding: 55px;
   background: #fdcc52;
 }
 
@@ -19,13 +19,13 @@
 }
 
 .contact-logo {
-  width: 50px;
+  width: 70px;
   /* -webkit-filter: contrast(200%) invert(200%);
   filter: contrast(200%) invert(200%); */
 }
 
 .email-logo {
-  width: 45px;
+  width: 60px;
   /* -webkit-filter: contrast(200%) invert(200%);
   filter: contrast(200%) invert(200%); */
 }

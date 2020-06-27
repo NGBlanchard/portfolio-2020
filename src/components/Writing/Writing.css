@@ -2,9 +2,9 @@
   color: white;
   background: url("../Hero/img/bg-pattern.png"), #7b4397;
   background: url("../Hero/img/bg-pattern.png"),
-    -webkit-linear-gradient(to left, #7b4397, #dc2430);
+    -webkit-linear-gradient(to left, #7b4397, rgb(63, 182, 218));
   background: url("../Hero/img/bg-pattern.png"),
-    linear-gradient(to left, #7b4397, #dc2430);
+    linear-gradient(to left, #7b4397, rgb(63, 182, 218));
   padding: 35px 10px;
 }
 

@@ -1,6 +1,7 @@
 .teaching-cont {
   background-color: white;
   padding: 35px;
+  filter: invert(100%);
 }
 
 .teaching-header {
