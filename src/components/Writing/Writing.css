@@ -60,9 +60,8 @@ a:hover {
   color: #cf8a05;
 }
 
-.writing-image {
-  max-width: 100%;
-  height: auto;
+.writing-img {
+  max-height: 220px;
 }
 
 ::selection {
@@ -129,8 +128,8 @@ h1.title {
   -moz-transition: opacity 200ms linear;
 }
 .hover_info a {
-  font-size: 16px;
-  padding: 10px 20px;
+  font-size: 15px;
+  padding: 7px 20px;
   background: rgba(207, 138, 5, 0.7);
   color: #e7e7e7;
   position: absolute;
