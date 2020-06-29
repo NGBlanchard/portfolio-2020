@@ -2,7 +2,7 @@ import React from "react";
 import "./Teaching.css";
 export default function Teaching() {
   return (
-    <section className="teaching-cont">
+    <section className="teaching-cont" id="teaching">
       <section>
         <div className="sectionTitle">
         <header className="projects-header">Teaching</header>

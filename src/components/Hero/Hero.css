@@ -1,19 +1,13 @@
 header.hero-cont {
   position: relative;
   width: 100%;
-  padding: 70px 35px 100px 35px;
+  padding: 100px 35px 100px 35px;
   color: white;
   background: url("../Hero/img/bg-pattern.png"), #7b4397;
   background: url("../Hero/img/bg-pattern.png"),
     -webkit-linear-gradient(to left, #7b4397, rgb(63, 182, 218));
   background: url("../Hero/img/bg-pattern.png"),
     linear-gradient(to left, #7b4397, rgb(63, 182, 218));
-  /* background: url("./img/bg-pattern.png"), #7b4397;
-  background: url("./img/bg-pattern.png"),
-    -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: url("./img/bg-pattern.png"),
-    linear-gradient(to left, #7b4397, #dc2430); */
-  max-width: 500px;
   text-align: center;
   font-size: 28px;
 }
@@ -26,5 +20,12 @@ header.hero-cont {
 }
 
 .header-content {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
+  max-width: 500px;
+}
+
+#contact-btn {
+  cursor: pointer;
 }

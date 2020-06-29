@@ -7,7 +7,7 @@ import linkedin from '../../img/linkedinlogo2.png'
 
 export default function Contact() {
   return (
-    <section className="contact-cont">
+    <section className="contact-cont" id="contact">
       <header className="contact-header">
         Contact Me
       </header>

@@ -1,22 +1,64 @@
-.nav {
-   -webkit-font-smoothing: antialiased;
-  transition: all 0.2s ease-in;
-  margin: 0 auto;
-  height: 55px;
-  padding: 0 16px;
-  z-index: 999;
+#mainNav {
+  border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
-  /* background-color: #212121; */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
+  font-weight: 200;
+  letter-spacing: 1px;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  padding: 8px 16px;
 }
 
-.logo {
+.drop {
+  margin-top: 10px;
+}
+
+#mainNav .navbar-brand {
   color: #fdcc52;
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
   font-size: 30px;
-  margin-top: auto;
-  margin-bottom: auto;
 }
+#mainNav .navbar-brand:hover,
+#mainNav .navbar-brand:focus {
+  color: #fcbd20;
+}
+#mainNav .navbar-toggler {
+  font-size: 18px;
+  padding: 8px 10px;
+  color: #212121;
+  position: absolute;
+  right: 8px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+
+}
+#mainNav .navbar-nav > li > a {
+  font-size: 11px;
+  font-family: "Lato", "Helvetica", "Arial", "sans-serif";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mainNav .navbar-nav > li > a.active {
+  background-color: transparent;
+}
+#mainNav .navbar-nav > li > a.active:hover {
+  background-color: transparent;
+}
+#mainNav .navbar-nav > li > a,
+#mainNav .navbar-nav > li > a:focus {
+  color: #212121;
+}
+#mainNav .navbar-nav > li > a:hover,
+#mainNav .navbar-nav > li > a:focus:hover {
+  color: #fdcc52;
+}
+
+

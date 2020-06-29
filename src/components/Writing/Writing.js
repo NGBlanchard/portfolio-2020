@@ -14,7 +14,7 @@ import grass from "../../img/grass.png"
 
 export default function Writing() {
   return (
-    <section className="writing-cont">
+    <section className="writing-cont" id="writing">
       <header className="writing-header">Writing</header>
       <section className="writing-grid">
         <div className="block_holder">

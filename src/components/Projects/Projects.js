@@ -12,7 +12,7 @@ import "./Projects.css";
 
 export default function Projects() {
   return (
-    <section className="projects-cont">
+    <section className="projects-cont" id="projects">
       <header className="projects-header">Full-Stack Projects</header>
       <section className="project-grid">
         <div className="project">
