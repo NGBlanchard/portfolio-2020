@@ -79,3 +79,25 @@
   top: 25px;
   right: 50px;
 }
+
+@media (max-width: 470px) {
+  .computer {
+    width: 200px;
+  }
+  .comp-screen {
+    width: 150px;
+    top: 15px;
+  right: 25px;
+  }
+  .phone {
+    width: 55px;
+    top: -100px;
+  left: 55px;
+  }
+  .screen {
+    width: 47.5px;
+    top: -90px;
+    left: 59px;
+    height: auto;
+  }
+}

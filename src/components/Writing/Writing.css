@@ -220,3 +220,13 @@ h1.title {
     max-width: 1050px;
   }
 }
+
+@media (max-width: 470px) {
+  .writing-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
