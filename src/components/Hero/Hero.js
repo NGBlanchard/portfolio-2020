@@ -9,19 +9,21 @@ export default function Hero() {
       <section className="image-cropper">
         <img className="me" src={nathan} alt="TK" />
       </section>
-      <header className="header-content">
-        I'm a web developer, writer, and teacher. I design and teach classes in
-        computer science, literature, writing, and podcasting.
-      </header>
-      <Link
-        id="contact-btn"
-        smooth="easeInOutQuart"
-        duration={1000}
-        to="contact"
-        className="btn btn-outline btn-xl js-scroll-trigger"
-      >
-        CONTACT ME
-      </Link>
+      <div className="bio-cont">
+        <header className="header-content">
+          I'm a web developer, writer, and teacher. I design and teach classes
+          in computer science, literature, writing, and podcasting.
+        </header>
+        <Link
+          id="contact-btn"
+          smooth="easeInOutQuart"
+          duration={1000}
+          to="contact"
+          className="btn btn-outline btn-xl js-scroll-trigger"
+        >
+          CONTACT ME
+        </Link>
+      </div>
     </header>
   );
 }
