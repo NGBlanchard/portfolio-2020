@@ -221,7 +221,13 @@ h1.title {
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 414px) {
+  .block_holder {
+    width: 185px;
+  }
+}
+
+@media (max-width: 375px) {
   .writing-grid {
     display: flex;
     flex-direction: column;

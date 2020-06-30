@@ -46,7 +46,6 @@
 }
 
 .device {
-  cursor: pointer;
   display: inline-block;
   position: relative;
 }
@@ -79,6 +78,8 @@
   top: 25px;
   right: 50px;
 }
+
+
 
 @media (max-width: 470px) {
   .computer {
