@@ -14,7 +14,7 @@
 .projects-header {
   text-align: center;
   font-size: 50px;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
   margin-bottom: 10px;
@@ -36,11 +36,10 @@
   flex-direction: row;
 }
 
-
 .project-title {
   margin-top: 30px;
   font-size: 30px;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -65,7 +64,6 @@
   top: -180px;
   left: 62px;
   z-index: 2;
- 
 }
 
 .computer {
@@ -79,21 +77,44 @@
   right: 50px;
 }
 
-
-
 @media (max-width: 470px) {
+  .computer {
+    width: 300px;
+  }
+  .comp-screen {
+    width: 225px;
+    top: 23px;
+    right: 37px;
+  }
+  .phone {
+    width: 82.5px;
+    top: -140px;
+    left: 55px;
+  }
+  .screen {
+    width: 71.25px;
+    top: -122px;
+    left: 61px;
+    height: 130px;
+  }
+  .project-title {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 412px) {
   .computer {
     width: 200px;
   }
   .comp-screen {
     width: 150px;
     top: 15px;
-  right: 25px;
+    right: 25px;
   }
   .phone {
     width: 55px;
     top: -100px;
-  left: 55px;
+    left: 55px;
   }
   .screen {
     width: 47.5px;
