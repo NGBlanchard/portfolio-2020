@@ -10,7 +10,7 @@
   position: fixed;
   z-index: 1000;
   width: 100%;
-  padding: 8px 16px;
+  padding: 10px 16px;
 }
 
 .drop {
@@ -22,7 +22,7 @@
   font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
-  font-size: 30px;
+  font-size: 40px;
 }
 #mainNav .navbar-brand:hover,
 #mainNav .navbar-brand:focus {
@@ -40,9 +40,10 @@
 
 }
 #mainNav .navbar-nav > li > a {
-  font-size: 11px;
+  font-size: 14px;
+  line-height: 20px;
   font-family: "Lato", "Helvetica", "Arial", "sans-serif";
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   cursor: pointer;
 }
