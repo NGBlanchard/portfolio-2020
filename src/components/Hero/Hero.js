@@ -11,8 +11,7 @@ export default function Hero() {
       </section>
       <div className="bio-cont">
         <header className="header-content">
-          I'm a web developer, writer, and teacher. I design and teach classes
-          in computer science, literature, writing, and podcasting.
+          Writer | Product Developer | Teacher | Multimodal Designer
         </header>
         <Link
           id="contact-btn"
