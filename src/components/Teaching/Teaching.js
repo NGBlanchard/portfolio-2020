@@ -9,12 +9,26 @@ export default function Teaching() {
         </div>
         <div className="resume-cont">
         <div className="sectionContent">
+        <article className="teach">
+            <h2>New Jersey Institute of Technology</h2>
+            <p className="subDetails">March 2021 - Present</p>
+            <p>
+            Introduction to Full-Stack Development <br />
+            HTML & Web Accessibility <br />
+            CSS & CSS Frameworks <br />
+            JavaScript & Front-End Web Development <br />
+            Milestone Project 1: Browser Game <br />
+            React & Redux
+            </p>
+          </article>
+
           <article className="teach">
             <h2>Montgomery County Public Schools</h2>
             <p className="subDetails">June 2020 - Present</p>
             <p>
               Foundations of Engineering & Technology <br />
-              AP Computer Science Principles
+              AP Computer Science Principles <br />
+              Web Design
             </p>
           </article>
 
